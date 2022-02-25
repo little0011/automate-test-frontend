@@ -9,6 +9,6 @@ services:
         source: /home/ubuntu/auto/excel
         target: /data
   frontend:
-    image: little0011/automated-test:latest
+    image: little0011/234-lab12:latest
     ports:
       - "8088:80"
